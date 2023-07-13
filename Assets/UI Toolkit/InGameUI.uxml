@@ -1,0 +1,44 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Assets/UI%20Toolkit/InGameUI.uss?fileID=7433441132597879392&amp;guid=017bd2d85e39435449fc1a390f05ae84&amp;type=3#InGameUI" />
+    <ui:VisualElement name="Screen" picking-mode="Ignore" style="flex-grow: 1; flex-direction: column-reverse; opacity: 1; display: flex; visibility: visible; overflow: visible; position: relative; flex-wrap: nowrap;">
+        <ui:VisualElement name="MenuSolar" picking-mode="Ignore" style="flex-direction: row; justify-content: center; display: flex;">
+            <ui:Button display-tooltip-when-elided="true" name="Slow" class="btn" style="align-items: center; justify-content: center;">
+                <ui:VisualElement name="Img" class="img" style="background-image: url(&apos;project://database/Assets/_T-VIR-901/Images/double_arrow.png?fileID=2800000&amp;guid=90a2afd1ed41d554ca354c234f50947a&amp;type=3#double_arrow&apos;); flex-grow: 1; -unity-background-scale-mode: scale-to-fit; flex-shrink: 1; rotate: 180deg;" />
+            </ui:Button>
+            <ui:Button display-tooltip-when-elided="true" name="Play" class="btn" style="align-items: center; justify-content: center;">
+                <ui:VisualElement name="Img" class="img" style="background-image: url(&apos;project://database/Assets/_T-VIR-901/Images/play.png?fileID=2800000&amp;guid=0a1f00ccee1902c48b59bd0078d30434&amp;type=3#play&apos;); flex-grow: 1; -unity-background-scale-mode: scale-to-fit; flex-shrink: 1;" />
+            </ui:Button>
+            <ui:Button display-tooltip-when-elided="true" name="Pause" class="btn" style="align-items: center; justify-content: center;">
+                <ui:VisualElement name="Img" class="img" style="background-image: url(&apos;project://database/Assets/_T-VIR-901/Images/pause.png?fileID=2800000&amp;guid=f1144a8b4faffc84c811e9179242716e&amp;type=3#pause&apos;); flex-grow: 1; -unity-background-scale-mode: scale-to-fit; flex-shrink: 1;" />
+            </ui:Button>
+            <ui:Button display-tooltip-when-elided="true" name="Speed" class="btn" style="align-items: center; justify-content: center;">
+                <ui:VisualElement name="Img" class="img" style="background-image: url(&apos;project://database/Assets/_T-VIR-901/Images/double_arrow.png?fileID=2800000&amp;guid=90a2afd1ed41d554ca354c234f50947a&amp;type=3#double_arrow&apos;); flex-grow: 1; -unity-background-scale-mode: scale-to-fit; flex-shrink: 1;" />
+            </ui:Button>
+        </ui:VisualElement>
+        <ui:VisualElement name="MenuList" picking-mode="Ignore" style="flex-direction: row; justify-content: center;">
+            <ui:Button display-tooltip-when-elided="true" name="PreviousList" class="btn" style="align-items: center; justify-content: center; rotate: 180deg;">
+                <ui:VisualElement name="Img" class="img" style="background-image: url(&apos;project://database/Assets/_T-VIR-901/Images/play.png?fileID=2800000&amp;guid=0a1f00ccee1902c48b59bd0078d30434&amp;type=3#play&apos;); flex-grow: 1; -unity-background-scale-mode: scale-to-fit; flex-shrink: 1;" />
+            </ui:Button>
+            <ui:Button display-tooltip-when-elided="true" name="NextList" class="btn" style="align-items: center; justify-content: center;">
+                <ui:VisualElement name="Img" class="img" style="background-image: url(&apos;project://database/Assets/_T-VIR-901/Images/play.png?fileID=2800000&amp;guid=0a1f00ccee1902c48b59bd0078d30434&amp;type=3#play&apos;); flex-grow: 1; -unity-background-scale-mode: scale-to-fit; flex-shrink: 1;" />
+            </ui:Button>
+        </ui:VisualElement>
+        <ui:VisualElement picking-mode="Ignore" name="MenuGravity" style="justify-content: flex-start; flex-direction: column; flex-wrap: nowrap; align-items: flex-start; flex-grow: 1;">
+            <ui:Foldout text="Configuration" focusable="false" usage-hints="None" value="false" name="Foldout" style="display: flex; background-color: rgba(70, 70, 70, 0.73); -unity-background-scale-mode: scale-to-fit; -unity-background-image-tint-color: rgb(255, 255, 255); color: rgb(255, 255, 255); visibility: visible; overflow: visible; flex-shrink: 0; align-items: stretch; justify-content: center; max-width: none; min-width: auto; -unity-text-align: middle-left; white-space: normal; -unity-font-style: normal; flex-direction: column; flex-wrap: nowrap; width: 100%; transform-origin: center; height: auto;">
+                <ui:DropdownField label="Satellite" index="-1" choices="System.Collections.Generic.List" name="Sat" focusable="false" usage-hints="None" class="select" style="color: rgb(255, 255, 255); overflow: visible; opacity: 1; display: flex; position: relative; left: auto; flex-direction: column; flex-wrap: nowrap; flex-shrink: 0; align-items: flex-start; justify-content: center; width: 100%; -unity-text-align: upper-left; visibility: visible; top: auto; right: auto; bottom: auto; -unity-text-outline-color: rgb(0, 0, 0);" />
+                <ui:DropdownField label="Attracteur" index="-1" choices="System.Collections.Generic.List`1[System.String]" name="Att" focusable="false" class="select" style="color: rgb(255, 255, 255); overflow: visible; align-items: flex-start; justify-content: center; -unity-text-align: middle-left; width: 100%; white-space: nowrap; flex-direction: column;" />
+                <ui:Slider label="Vitesse" value="50" high-value="100" name="Vit" direction="Horizontal" focusable="false" class="select" style="color: rgb(255, 255, 255); justify-content: center; align-items: flex-start; width: 100%; position: relative; min-height: auto; margin-left: 4px; margin-bottom: 20px; margin-top: 2px; margin-right: 4px; transform-origin: center; -unity-text-align: middle-left; height: auto; flex-direction: column;" />
+            </ui:Foldout>
+            <ui:VisualElement name="ButtonLaunch" picking-mode="Ignore" style="flex-direction: column-reverse; justify-content: flex-start; max-width: 100%; max-height: 100%; width: 100%; height: 100%; flex-wrap: nowrap; flex-basis: auto; align-items: center;">
+                <ui:VisualElement style="flex-direction: row;">
+                    <ui:Button display-tooltip-when-elided="true" name="reset" class="btn" style="align-items: center; justify-content: center; flex-direction: column; flex-wrap: nowrap;">
+                        <ui:VisualElement name="Img" class="img" style="background-image: url(&apos;project://database/Assets/_T-VIR-901/Images/reset.png?fileID=2800000&amp;guid=8f9ff61267c37444f93457b7f7e12195&amp;type=3#reset&apos;); flex-grow: 1; -unity-background-scale-mode: scale-to-fit; flex-shrink: 1; width: 30px; height: 30px; font-size: 25px; -unity-slice-left: 0; -unity-slice-top: 0; -unity-slice-right: 0; -unity-slice-bottom: 0; scale: 1.5 1.5;" />
+                    </ui:Button>
+                    <ui:Button display-tooltip-when-elided="true" name="send" class="btn" style="align-items: center; justify-content: center; flex-direction: column; flex-wrap: nowrap;">
+                        <ui:VisualElement name="Img" class="img" style="background-image: url(&apos;project://database/Assets/_T-VIR-901/Images/launch.png?fileID=2800000&amp;guid=a371ccd2d541ae042b590ba5c637c55f&amp;type=3#launch&apos;); flex-grow: 1; -unity-background-scale-mode: scale-to-fit; flex-shrink: 1; width: 30px; height: 30px; font-size: 25px; -unity-slice-left: 0; -unity-slice-top: 0; -unity-slice-right: 0; -unity-slice-bottom: 0; scale: 1.5 1.5;" />
+                    </ui:Button>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

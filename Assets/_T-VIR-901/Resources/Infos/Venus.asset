@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00739025626208a4fa908b0b52bf6e8d, type: 3}
+  m_Name: Venus
+  m_EditorClassIdentifier: 
+  Titre: Venus
+  Description: "V\xE9nus est la deuxi\xE8me plan\xE8te du Syst\xE8me solaire par
+    ordre d'\xE9loignement au Soleil, et la sixi\xE8me plus grosse aussi bien par
+    la masse que le diam\xE8tre. Elle doit son nom \xE0 la d\xE9esse romaine de l'amour. 
+    V\xE9nus orbite autour du Soleil tous les 224,7 jours terrestres. Avec une p\xE9riode
+    de rotation de 243 jours terrestres, il lui faut plus de temps pour tourner autour
+    de son axe que toute autre plan\xE8te du Syst\xE8me solaire. Comme Uranus, elle
+    poss\xE8de une rotation r\xE9trograde et tourne dans le sens oppos\xE9 \xE0 celui
+    des autres plan\xE8tes : le soleil s'y l\xE8ve \xE0 l'ouest et se couche \xE0
+    l'est. V\xE9nus poss\xE8de l'orbite la plus circulaire des plan\xE8tes du Syst\xE8me
+    solaire avec une excentricit\xE9 orbitale presque nulle et, du fait de sa lente
+    rotation, est quasiment sph\xE9rique (aplatissement consid\xE9r\xE9 comme nul).
+    Elle ne poss\xE8de pas de satellite naturel."
+  Rayon: 6052
+  Inclinaison: 177.36
+  Type: 0

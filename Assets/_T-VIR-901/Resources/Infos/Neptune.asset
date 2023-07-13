@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00739025626208a4fa908b0b52bf6e8d, type: 3}
+  m_Name: Neptune
+  m_EditorClassIdentifier: 
+  Titre: Neptune
+  Description: "Neptune est la huiti\xE8me plan\xE8te par ordre d'\xE9loignement
+    au Soleil et la plus \xE9loign\xE9e connue du Syst\xE8me solaireN 2. Elle orbite
+    autour du Soleil \xE0 une distance d'environ 30,1 au (4,5 milliards de kilom\xE8tres),
+    avec une excentricit\xE9 orbitale moiti\xE9 moindre que celle de la Terre et
+    une p\xE9riode de r\xE9volution de 164,79 ans. Il s'agit de la troisi\xE8me plan\xE8te
+    la plus massive du Syst\xE8me solaire et de la quatri\xE8me plus grande par la
+    taille \u2014 un peu plus massive mais un peu plus petite qu'Uranus. Par ailleurs,
+    elle est la plan\xE8te g\xE9ante la plus dense."
+  Rayon: 24622
+  Inclinaison: 29.58
+  Type: 1

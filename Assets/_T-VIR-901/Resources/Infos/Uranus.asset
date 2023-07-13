@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00739025626208a4fa908b0b52bf6e8d, type: 3}
+  m_Name: Uranus
+  m_EditorClassIdentifier: 
+  Titre: Uranus
+  Description: "Uranus est la septi\xE8me plan\xE8te du Syst\xE8me solaire par ordre
+    d'\xE9loignement au Soleil. Elle orbite autour de celui-ci \xE0 une distance
+    d'environ 19,2 unit\xE9s astronomiques (2,87 milliards de kilom\xE8tres), avec
+    une p\xE9riode de r\xE9volution de 84,05 ann\xE9es terrestres. Il s'agit de la
+    quatri\xE8me plan\xE8te la plus massive du Syst\xE8me solaire et de la troisi\xE8me
+    plus grande par la taille.  Elle est la premi\xE8re plan\xE8te d\xE9couverte
+    \xE0 l\u2019\xE9poque moderne avec un t\xE9lescope et non connue depuis l'Antiquit\xE9.
+    Bien qu'elle soit visible \xE0 l\u2019\u0153il nu, son caract\xE8re plan\xE9taire
+    n'est alors pas identifi\xE9 en raison de son tr\xE8s faible \xE9clat et de son
+    d\xE9placement apparent dans le ciel tr\xE8s lent. William Herschel l'observe
+    pour la premi\xE8re fois le 13 mars 1781 et la confirmation qu'il s'agit d'une
+    plan\xE8te et non d'une com\xE8te est faite pendant les mois qui suivent."
+  Rayon: 25362
+  Inclinaison: 97.8
+  Type: 1

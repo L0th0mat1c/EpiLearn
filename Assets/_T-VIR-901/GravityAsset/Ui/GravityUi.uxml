@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/_T-VIR-901/GravityAsset/Ui/uiUss.uss?fileID=7433441132597879392&amp;guid=794181959f4e9fb40ac98e194112d5c5&amp;type=3#uiUss" />
+    <ui:VisualElement picking-mode="Ignore" style="justify-content: flex-start; flex-direction: column; flex-wrap: nowrap; align-items: flex-start; flex-grow: 1;">
+        <ui:VisualElement style="background-color: rgba(0, 0, 0, 0.5); height: 117px; justify-content: flex-start; width: 100%; border-top-left-radius: 0; border-bottom-left-radius: 22px; border-top-right-radius: 0; border-bottom-right-radius: 22px;">
+            <ui:DropdownField label="Satellite" index="-1" choices="System.Collections.Generic.List" name="Sat" focusable="true" usage-hints="None" class="select" style="color: rgb(255, 255, 255);" />
+            <ui:DropdownField label="Attracteur" index="-1" choices="System.Collections.Generic.List`1[System.String]" name="Att" class="select" style="color: rgb(255, 255, 255);" />
+            <ui:Slider label="Vitess" value="42" high-value="100" name="Vit" class="select" style="color: rgb(255, 255, 255);" />
+        </ui:VisualElement>
+        <ui:VisualElement style="width: 100%; height: 100%; align-items: center; justify-content: center; -unity-text-outline-color: rgb(255, 255, 255); color: rgb(255, 255, 255);">
+            <ui:Button text="Lancer" display-tooltip-when-elided="true" name="send" style="background-image: url(&apos;project://database/Assets/Sci-Fi%20UI/_SciFi_GUISkin_/Skin_Assets/buttons/rocket.png?fileID=2800000&amp;guid=3b8db7241fc8ff54e9dea6fc64cfd7e5&amp;type=3#rocket&apos;); -unity-background-scale-mode: scale-to-fit; background-color: rgba(0, 0, 0, 0.3); border-top-left-radius: 100px; border-bottom-left-radius: 100px; border-top-right-radius: 100px; border-bottom-right-radius: 100px; -unity-slice-left: 4; -unity-slice-top: 4; -unity-slice-right: 4; -unity-slice-bottom: 4; border-left-width: 1px; border-right-width: 1px; border-top-width: 1px; border-bottom-width: 1px; color: rgb(255, 255, 255); width: 74px; height: 76px; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; -unity-background-image-tint-color: rgb(255, 255, 255); border-left-color: rgb(24, 175, 217); border-right-color: rgb(24, 175, 217); border-top-color: rgb(24, 175, 217); border-bottom-color: rgb(24, 175, 217);" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

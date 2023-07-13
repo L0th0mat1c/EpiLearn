@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a521fbb724f5a5649ae0cb943f5acc3d, type: 3}
+  m_Name: Soleil
+  m_EditorClassIdentifier: 
+  Titre: Soleil
+  Description: "Le Soleil est l\u2019\xE9toile du Syst\xE8me solaire. Dans la classification
+    astronomique, c\u2019est une \xE9toile de type naine jaune d'une masse d'environ
+    1,989 1 \xD7\u202F1030 kg, compos\xE9e d\u2019hydrog\xE8ne (74 % de la masse
+    ou 92 % du volume) et d\u2019h\xE9lium (25 % de la masse ou 8 % du volume). Le
+    Soleil fait partie de la galaxie appel\xE9e la Voie lact\xE9e et se situe \xE0
+    environ 8 kpc (\u223C26 100 a.l.) du centre galactique, dans le bras d'Orion.
+    Le Soleil orbite autour du centre galactique en une ann\xE9e galactique de 225
+    \xE0 250 millions d'ann\xE9es. Autour de lui gravitent la Terre (\xE0 la vitesse
+    de 30 km/s), sept autres plan\xE8tes, au moins cinq plan\xE8tes naines, de tr\xE8s
+    nombreux ast\xE9ro\xEFdes et com\xE8tes et une bande de poussi\xE8re. Le Soleil
+    repr\xE9sente \xE0 lui seul environ 99,854 % de la masse du syst\xE8me plan\xE9taire
+    ainsi constitu\xE9, Jupiter repr\xE9sentant plus des deux tiers du reste."
+  Rayon: 696340
+  Inclinaison: 0
+  Type: 2

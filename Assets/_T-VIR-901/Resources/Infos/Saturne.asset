@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00739025626208a4fa908b0b52bf6e8d, type: 3}
+  m_Name: Saturne
+  m_EditorClassIdentifier: 
+  Titre: Saturne
+  Description: "Saturne est la sixi\xE8me plan\xE8te du Syst\xE8me solaire par ordre
+    d'\xE9loignement au Soleil, et la deuxi\xE8me plus grande par la taille et la
+    masse apr\xE8s Jupiter, qui est comme elle une plan\xE8te g\xE9ante gazeuse.
+    Son rayon moyen de 58 232 km est environ neuf fois et demi celui de la Terre
+    et sa masse de 568,46 \xD7\u202F1024 kg est 95 fois plus grande. Orbitant en
+    moyenne \xE0 environ 1,4 milliard de kilom\xE8tres du Soleil (9,5 unit\xE9s astronomiques),
+    sa p\xE9riode de r\xE9volution vaut un peu moins de 30 ann\xE9es tandis que sa
+    p\xE9riode de rotation est estim\xE9e \xE0 10 h 33 min."
+  Rayon: 58232
+  Inclinaison: 26.73
+  Type: 1

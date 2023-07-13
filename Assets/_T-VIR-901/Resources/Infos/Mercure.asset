@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00739025626208a4fa908b0b52bf6e8d, type: 3}
+  m_Name: Mercure
+  m_EditorClassIdentifier: 
+  Titre: Mercure
+  Description: "Mercure est la plan\xE8te la plus proche du Soleil et la moins massive
+    du Syst\xE8me solaireN 1. Son \xE9loignement au Soleil est compris entre 0,31
+    et 0,47 unit\xE9 astronomique (soit 46 et 70 millions de kilom\xE8tres), ce qui
+    correspond \xE0 une excentricit\xE9 orbitale de 0,2 \u2014 plus de douze fois
+    sup\xE9rieure \xE0 celle de la Terre, et de loin la plus \xE9lev\xE9e pour une
+    plan\xE8te du Syst\xE8me solaire. Elle est visible \xE0 l'\u0153il nu depuis
+    la Terre avec un diam\xE8tre apparent de 4,5 \xE0 13 secondes d'arc, et une magnitude
+    apparente de 5,7 \xE0 \u22122,3 ; son observation est toutefois rendue difficile
+    par son \xE9longation toujours inf\xE9rieure \xE0 28,3\xB0 qui la noie le plus
+    souvent dans l'\xE9clat du soleil."
+  Rayon: 2440
+  Inclinaison: 0.03
+  Type: 0

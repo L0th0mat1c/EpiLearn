@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00739025626208a4fa908b0b52bf6e8d, type: 3}
+  m_Name: Terre
+  m_EditorClassIdentifier: 
+  Titre: Terre
+  Description: "La Terre est la troisi\xE8me plan\xE8te par ordre d'\xE9loignement
+    au Soleil et la cinqui\xE8me plus grande du Syst\xE8me solaire aussi bien par
+    la masse que par le diam\xE8tre. Par ailleurs, elle est le seul objet c\xE9leste
+    connu pour abriter la vie. Elle orbite autour du Soleil en 365,256 jours solaires
+    \u2014 une ann\xE9e sid\xE9rale \u2014 et r\xE9alise une rotation sur elle-m\xEAme
+    relativement au Soleil en un jour sid\xE9ral (environ 23 h 56 min 4 s), soit
+    un peu moins que son jour solaire de 24 h du fait de ce d\xE9placement autour
+    du Soleila. L'axe de rotation de la Terre poss\xE8de une inclinaison de 23\xB0,
+    ce qui cause l'apparition des saisons."
+  Rayon: 6371
+  Inclinaison: 23.44
+  Type: 0

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00739025626208a4fa908b0b52bf6e8d, type: 3}
+  m_Name: Mars
+  m_EditorClassIdentifier: 
+  Titre: Mars
+  Description: "Mars (prononc\xE9 en fran\xE7ais : /ma\u0281s/) est la quatri\xE8me
+    plan\xE8te du Syst\xE8me solaire par ordre croissant de la distance au Soleil
+    et la deuxi\xE8me par ordre croissant de la taille et de la masse. Son \xE9loignement
+    au Soleil est compris entre 1,381 et 1,666 UA (206,6 \xE0 249,2 millions de kilom\xE8tres),
+    avec une p\xE9riode orbitale de 669,58 jours martiens (686,71 jours ou 1,88 ann\xE9e
+    terrestre).  C\u2019est une plan\xE8te tellurique, comme le sont Mercure, V\xE9nus
+    et la Terre, environ dix fois moins massive que la Terre mais dix fois plus massive
+    que la Lune. Sa topographie pr\xE9sente des analogies aussi bien avec la Lune,
+    \xE0 travers ses crat\xE8res et ses bassins d'impact, qu'avec la Terre, avec
+    des formations d'origine tectonique et climatique telles que des volcans, des
+    rifts, des vall\xE9es, des mesas, des champs de dunes et des calottes polaires.
+    Le plus haut volcan du Syst\xE8me solaire, Olympus Mons (qui est un volcan bouclier),
+    et le plus grand canyon, Valles Marineris, se trouvent sur Mars."
+  Rayon: 3390
+  Inclinaison: 25.19
+  Type: 0
