@@ -27,10 +27,6 @@ Language:
 
 ## 🧱 Project Organisation
 
-### Trello
-
-- https://trello.com/b/XWLjybmj/t-vir-901
-
 ### Commits
 
 We are following the [gitmoji convention](https://gitmoji.dev/).
